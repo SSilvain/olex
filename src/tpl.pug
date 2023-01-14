@@ -1,0 +1,21 @@
+block vars
+	- var title = "Title tpl"
+
+html(lang="en")
+	head
+		block head
+			include scss/pages/head
+			title #{title}
+	body
+		.wrapper
+			block header
+				.header
+					.header__container
+						include scss/pages/header
+
+			block content
+
+			block footer
+				.footer
+					.footer__container
+						include scss/pages/footer
