@@ -7,11 +7,15 @@ html(lang="en")
 			include scss/pages/head
 			title #{title}
 	body
+		button.menu__icon.icon-menu(type="button" title="menu button")
+			span.icon-menu__before
+			span.icon-menu__center
+			span.icon-menu__after
 		.wrapper
 			block header
 				.header
-					.header__container
-						include scss/pages/header
+					//- .header__container
+					include scss/pages/header
 
 			block content
 

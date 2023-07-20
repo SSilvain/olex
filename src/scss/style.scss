@@ -11,18 +11,19 @@
 //@import "fonts/icons";
 
 :root {
-	--main-color: #FF6428;
-	--main-color-text: #121212;
-	--slave-color-text: #666666;
-	--light-text: #fff;
-	--main-font: Poppins;
-	--slave-font: CalSans;
+	--color-main: #0287E7;
+	--text-color-main: #121212;
+	--text-color-slave: #666666;
+	--text-color-light: #fff;
+	--font-main: Oxygen;
+	--font-slave: Inter;
   }
 
 $fontSize: rem(17);
 
-$mainColor: var(--main-color);
+// $mainColor: var(--main-color);
 
+// $mainColor: var(--main-color);
 $minWidth: 320;
 
 $maxWidth: 1440;
@@ -44,6 +45,7 @@ $responsiveType: 1;
 
 
 body {
+	background: url("@img/hero-bg.png") no-repeat center;
 
 	.lock & {
 		overflow: hidden;
@@ -124,3 +126,4 @@ body {
 @import "pages/footer";
 
 @import "pages/index/01_hero";
+@import "pages/index/02_next";
