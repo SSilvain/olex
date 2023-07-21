@@ -28,7 +28,7 @@ $minWidth: 320;
 
 $maxWidth: 1440;
 
-$maxWidthContainer: 1200;
+$maxWidthContainer: 1440;
 
 $containerPadding: 30;
 
@@ -45,7 +45,6 @@ $responsiveType: 1;
 
 
 body {
-	background: url("@img/hero-bg.png") no-repeat center;
 
 	.lock & {
 		overflow: hidden;
@@ -127,3 +126,4 @@ body {
 
 @import "pages/indexpage/01_hero";
 @import "pages/indexpage/02_next";
+@import "pages/indexpage/03_options";

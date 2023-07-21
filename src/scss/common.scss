@@ -1,3 +1,16 @@
+.button{
+    background: rgba(0, 27, 121, 1);
+    color: var(--text-color-light);
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 180%;
+    text-transform: uppercase;
+}
+.button--light{
+    background: #0287E7;
+}
 .section-title {
     color: #1a1a1a;
     font-family: Oxygen;
